@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333333;
+}
+
+.features {
+    padding: 20px;
+}
+
+.features .feature {
+    margin-bottom: 20px;
+}
+
+.mods {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mod-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333333;
+    margin: 10px;
+    padding: 10px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+}
+
+.mod-card img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer .socials a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.purchase {
+    padding: 20px;
+    background-color: #1f1f1f;
+    border: 1px solid #333333;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.purchase form {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.purchase input, .purchase select, .purchase button {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #ffffff;
+    width: 100%;
+}
+
+.purchase button {
+    background-color: #5c85d6;
+    border: none;
+    cursor: pointer;
+}
+
+.purchase button:hover {
+    background-color: #476ba3;
+}
