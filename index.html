@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FunLub.win - Покупка мода</title>
+    <title>FunLub.win - Моды на игры</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="logo">FunLub.win</div>
         <nav>
             <ul>
-                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Главная</a></li>
                 <li><a href="#">О нас</a></li>
                 <li><a href="#">Моды</a></li>
                 <li><a href="#">Форум</a></li>
@@ -20,24 +20,39 @@
         </nav>
     </header>
     <main>
-        <section class="purchase">
-            <h1>Покупка мода "Skeet"</h1>
-            <form action="thankyou.html" method="post">
-                <label for="name">Имя:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="payment">Метод оплаты:</label>
-                <select id="payment" name="payment" required>
-                    <option value="creditcard">Кредитная карта</option>
-                    <option value="paypal">PayPal</option>
-                    <option value="crypto">Криптовалюта</option>
-                </select>
-                
-                <button type="submit">Купить</button>
-            </form>
+        <section class="hero">
+            <h1>Добро пожаловать на FunLub.win</h1>
+            <p>Лучшие моды для ваших любимых игр</p>
+        </section>
+        <section class="features">
+            <h2>Почему выбирают нас</h2>
+            <div class="feature">
+                <h3>Качество</h3>
+                <p>Мы предоставляем только самые качественные моды.</p>
+            </div>
+            <div class="feature">
+                <h3>Поддержка</h3>
+                <p>Наша служба поддержки всегда готова помочь вам.</p>
+            </div>
+            <div class="feature">
+                <h3>Обновления</h3>
+                <p>Регулярные обновления и новые моды каждый месяц.</p>
+            </div>
+        </section>
+        <h2>наши читы</h2>
+        <section class="mods">
+            <div class="mod-card">
+                <img src="mod1.jpg" alt="Mod 1">
+                <h3>skeet</h3>
+                <p>всем извесный чит.</p>
+                <a href="index.html"><button>купить</button></a>
+            </div>
+            <div class="mod-card">
+                <img src="mod2.jpg" alt="Mod 2">
+                <h3>skeet cs2</h3>
+                <p>нет в продаже</p>
+                <button disabled>нет в продаже</button>
+            </div>
         </section>
     </main>
     <footer>
